@@ -1,0 +1,117 @@
+.container{
+    width: 94%;
+    margin: 0 auto;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 114px;
+    .card{
+        width: 390px;
+        p{
+            font-size: 18px;
+            color: #0A0A0A;
+            line-height: 25px;
+        }
+    }
+}
+
+.footer{
+    display: flex;
+    gap: 0 53px;
+
+    .footer__left{
+        .form{
+            .form__title{
+                max-width: 820px;
+                font-size: 44px;
+                line-height: 61px;
+                font-weight: 600;
+                color: #0A0A0A;
+            }
+
+            .form__desc{
+                font-size: 18px;
+                line-height: 25px;
+                color: #5C5C5C;
+                margin-top: 16px;
+            }
+            .form__input1{
+                margin-top: 50px;
+                display: flex;
+                gap: 10px;
+                input{
+                    max-width: 382px;
+                    width: 100%;
+                    font-size: 18px;
+                    padding: 10px;
+                    outline: none;
+                    border: 1px solid #5c5c5c4f;
+                    color: #5C5C5C;
+                }
+            }
+
+            .form__input2{
+                margin-top: 25px;
+                input{
+                    width: 790px;
+                    font-size: 18px;
+                    padding: 10px;
+                    outline: none;
+                    border: 1px solid #5c5c5c4f;
+                    color: #5C5C5C;
+                }
+            }
+
+            .form__input3{
+                margin-top: 25px;
+                textarea{
+                    width: 790px;
+                    height: 148px;
+                    resize: none;
+                    font-size: 18px;
+                    padding: 10px;
+                    outline: none;
+                    border: 1px solid #5c5c5c4f;
+                    color: #5C5C5C;
+                }
+            }
+
+            .form__button{
+                margin-top: 55px;
+
+                button{
+                    padding: 26px 64px;
+                    color: #FFF;
+                    background-color: #B99674;
+                    border: 2px solid transparent;
+                    font-size: 20px;
+                    line-height: 24px;
+                    cursor: pointer;
+                    &:hover{
+                        border: 2px solid #B99674;
+                        color: #B99674;
+                        background-color: #FFF;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer__map{
+    .map__title{
+        h3{
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 34px;
+            color: #0A0A0A;
+        }
+    }
+    .map__iframe{
+        margin-top: 37px;
+    }
+}

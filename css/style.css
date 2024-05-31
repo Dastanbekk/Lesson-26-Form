@@ -1,0 +1,102 @@
+.container {
+  width: 94%;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 114px;
+}
+.cards .card {
+  width: 390px;
+}
+.cards .card p {
+  font-size: 18px;
+  color: #0A0A0A;
+  line-height: 25px;
+}
+
+.footer {
+  display: flex;
+  gap: 0 53px;
+}
+.footer .footer__left .form .form__title {
+  max-width: 820px;
+  font-size: 44px;
+  line-height: 61px;
+  font-weight: 600;
+  color: #0A0A0A;
+}
+.footer .footer__left .form .form__desc {
+  font-size: 18px;
+  line-height: 25px;
+  color: #5C5C5C;
+  margin-top: 16px;
+}
+.footer .footer__left .form .form__input1 {
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+}
+.footer .footer__left .form .form__input1 input {
+  max-width: 382px;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid rgba(92, 92, 92, 0.3098039216);
+  color: #5C5C5C;
+}
+.footer .footer__left .form .form__input2 {
+  margin-top: 25px;
+}
+.footer .footer__left .form .form__input2 input {
+  width: 790px;
+  font-size: 18px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid rgba(92, 92, 92, 0.3098039216);
+  color: #5C5C5C;
+}
+.footer .footer__left .form .form__input3 {
+  margin-top: 25px;
+}
+.footer .footer__left .form .form__input3 textarea {
+  width: 790px;
+  height: 148px;
+  resize: none;
+  font-size: 18px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid rgba(92, 92, 92, 0.3098039216);
+  color: #5C5C5C;
+}
+.footer .footer__left .form .form__button {
+  margin-top: 55px;
+}
+.footer .footer__left .form .form__button button {
+  padding: 26px 64px;
+  color: #FFF;
+  background-color: #B99674;
+  border: 2px solid transparent;
+  font-size: 20px;
+  line-height: 24px;
+  cursor: pointer;
+}
+.footer .footer__left .form .form__button button:hover {
+  border: 2px solid #B99674;
+  color: #B99674;
+  background-color: #FFF;
+}
+
+.footer__map .map__title h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  color: #0A0A0A;
+}
+.footer__map .map__iframe {
+  margin-top: 37px;
+}
